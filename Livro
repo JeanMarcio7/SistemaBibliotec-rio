@@ -9,19 +9,15 @@ public class Livro {
     public String getNome() {
         return nome;
     }
-
     public String getIsbn() {
         return isbn;
     }
-
     public void setNome(String nome) {
         this.nome = nome;
     }
-
     public void setIsbn(String isbn) {
         this.isbn = isbn;
     }
-
     public void mostraLivro(ArrayList<Livro>acervo) {
         for (int i = 0; i < acervo.size(); i++) {
             mostradora = mostradora + "Nome: " + acervo.get(i).getNome() + "\n" + "ISBN: " + acervo.get(i).getIsbn() + "\n\n";
